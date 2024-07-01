@@ -1,0 +1,55 @@
+/***** Sección "Proyectos" *****/
+.proyectos{
+    margin:8% 0;
+    
+    
+}
+
+.proyectos h2{
+    margin-bottom:1em;
+    text-align: center;
+}
+
+.galeria-proyectos {
+    display:flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+/* Aqui cambiamos los "Ver más, Github y Tecnologias" */
+.galeria-proyectos a {
+    color: #f0f0f0;
+}
+
+
+.galeria-proyectos img{
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.galeria-proyectos .proyecto{
+    border: 1px solid #f0f0f0;
+    border-radius:8px;
+    padding: 20px 15px;
+}
+
+@media screen and (max-width:768px) {
+    .galeria-proyectos {
+        flex-flow: row wrap;
+        max-width: 70%;
+        margin:0 auto;
+    }
+    .galeria-proyectos .proyecto{
+        margin-bottom: 1.5em;
+    }
+}
+@media screen and (max-width:500px) {
+    .galeria-proyectos {
+        
+        max-width: 90%;
+        
+    }
+    
+}
